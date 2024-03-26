@@ -1,0 +1,84 @@
+@media screen and (max-width:1080px){
+.main__content-img{
+    flex-wrap: wrap;
+}
+.section1{
+display: flex;
+flex-direction: column
+}
+.section1__content-title{
+    font-size: 45px;
+}
+.section1__content-text{
+    font-size: 13px;
+}
+.section2{
+display: flex;
+flex-direction: column
+}
+}
+
+@media screen and (max-width:960px){
+    .section5__box-text{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:840px){
+.section4__content-title{
+    font-size: 30px;
+}
+.section4__cards{
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.section5__box-text{
+    font-size: 20px;
+    width: 500px;
+}
+}
+
+@media screen and (max-width:740px){
+.footer__bar{
+    display: flex;
+    flex-direction: column;
+}
+.footer__content{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width:664px){
+    .ul__list{
+    gap: 20px;
+    }
+    .header__content-title{
+        font-size: 30px;
+    }
+    .header__content-subtitle{
+        font-size: 30px;
+    }
+    .header__content-text{
+        font-size: 15px;
+    }
+    .section5__box-text{
+        font-size: 15px;
+        width: 300px;
+    }
+    .section6__title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:410px){
+    .section1__content-text{
+width: 350px;
+    }
+    .footer__box-title{
+        font-size: 15px;
+    }
+    .footer__box-text {
+        font-size: 10px;
+    }
+}
